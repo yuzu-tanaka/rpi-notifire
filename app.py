@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# server.py
+# app.py
 from flask import Flask, render_template, request
 import datetime
+
+# enterCrew
+# from enterCrew import *
+
+# CB = CrewButton()
 
 # mongo db 
 from pymongo import MongoClient

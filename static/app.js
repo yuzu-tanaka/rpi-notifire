@@ -6,6 +6,11 @@ var $eventname = $('#eventname');
 var $x = $('#x');
 var $y = $('#y');
 var action = document.getElementById("action");
+if (action.textContent == 'entry') {
+  $hitarea.css('background-color', 'blue');
+} else {
+  $hitarea.css('background-color', 'green');
+}
 //window.alert(element.textContent);
 
 // タッチイベントが利用可能かの判別
@@ -55,7 +60,7 @@ var handleMove = function(event) {
 var handleEnd = function(event) {
   // updateEventname(EVENTNAME_TOUCHEND);
   // updateXY(event);
-  $hitarea.css('background-color', 'blue');
+  // $hitarea.css('background-color', 'blue');
   unbindMoveAndEnd();
   // window.alert(action.textContent);
   window.location.href = '/' + action.textContent;
