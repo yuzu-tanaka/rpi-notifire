@@ -5,10 +5,10 @@ html,body {
 	font-family:Arial, Helvetica, sans-serif;
 }
 #action {
-        display: hide;
+        display: none;
 }
 #hitarea {
-        width: 100%;
+        width: 100vw;
         height: 100vh;
 	background:blue;
 	color:#fff;
