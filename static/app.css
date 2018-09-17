@@ -1,0 +1,31 @@
+html,body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#action {
+        display: hide;
+}
+#hitarea {
+        width: 100vh;
+        height: 100vh;
+	background:blue;
+	color:#fff;
+	line-height:20px;
+	/* テキスト選択させない */
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	/* windows8のスワイプ動作を禁止 */
+	-ms-touch-action:none;
+        display: table-cell; /* IE8から使用可能 */
+        vertical-align: middle;
+        font-size:64px;
+}
+.table-cell {
+}
+#eventname {
+	margin: 0 0 8px;
+}
